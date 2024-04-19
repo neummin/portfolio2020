@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#070707;}
+	.st1{fill:#0F0F0F;}
+	.st2{fill:#303030;}
+	.st3{fill:#232323;}
+	.st4{opacity:0.4;}
+</style>
+<animateTransform  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" fill="remove" restart="always" type="translate">
+	</animateTransform>
+<rect x="-17" y="-15" width="1954" height="1110"/>
+<polygon class="st0" points="-17,-15 -17,385 259,-15 "/>
+<polygon class="st1" points="-17,385 359,599 259,-15 "/>
+<polygon class="st2" points="259,-15 785,-15 359,599 "/>
+<polygon class="st2" points="785,-15 1005,317 1293,-15 "/>
+<polygon class="st0" points="785,-15 1005,317 522,364.1 "/>
+<polygon class="st3" points="1005,317 1449,549 1293,-15 "/>
+<polygon class="st0" points="1293,-15 1937,-15 1449,549 "/>
+<polygon class="st2" points="1937,-15 1449,549 1937,649 "/>
+<polygon class="st1" points="1937,649 1937,1095 1449,549 "/>
+<polygon class="st3" points="1449,549 1259,1095 1937,1095 "/>
+<polygon class="st0" points="1005,317 1005,719 1449,549 "/>
+<polygon class="st1" points="1449,549 1005,719 1259,1095 "/>
+<polygon class="st3" points="1005,719 1259,1095 597,1095 "/>
+<polygon class="st2" points="1005,719 1005,317 522,364 "/>
+<polygon class="st0" points="1005,719 522,364 597,1095 "/>
+<polygon class="st3" points="522,364 359,599 564.6,779.4 "/>
+<polygon class="st3" points="359,599 -17,1095 -17,385 "/>
+<polygon class="st3" points="359,599 565,779 597,1095 "/>
+<polygon class="st0" points="359,599 597,1095 -17,1095 "/>
+<rect x="-17" y="-15" class="st4" width="1954" height="1110"/>
+</svg>

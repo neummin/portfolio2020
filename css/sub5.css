@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+/* main.css */
+html{
+   -ms-overflow-style: none;
+   overflow-x: hidden;
+  }
+ /* SCROLL */
+::-webkit-scrollbar {width: 6px;}
+::-webkit-scrollbar-track { background-color: #000; }
+::-webkit-scrollbar-thumb { 
+    background: #299900; border-radius: 50px;
+}
+::-webkit-scrollbar-button { display: none; }
+
+
+body{font-family: 'Noto Sans KR', sans-serif;
+  width: 100%; height: 100%;}
+a{color: #666; text-decoration: none;}
+
+
+/* header */
+#header{
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  color: #fff;
+}
+#header .header_inner{
+  display: flex;
+  justify-content: space-between;
+}
+#header .header_inner .nav_line{
+  width: 150px;
+  height: 10px;
+  background: #fff;
+}
+#header .header_inner p a{
+  margin-top: 10px;
+  display: block;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  transform: scale(1);
+  transition: all 0.5s cubic-bezier(0.780, -0.565, 0.240, 1.650) 0s;
+}
+#header .header_inner .prev p a{
+  text-align: right;
+}
+#header .header_inner p a:hover{
+  transform: scale(1.3);
+}
+
+#container{background: #fff;}
+/* content1 */
+.content1{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/portfolio_bg5.jpg) no-repeat 10% 20%;
+  background-size: cover;
+}
+.content1 .name{
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.content1 h2{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 180px;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* content2 */
+.content2{
+   max-width: 1100px;
+   margin: 0 auto;
+ }
+ .content2 .content2_inner{
+   margin: 80px 0;
+   display: flex;
+   justify-content: space-between;
+ }
+ .content2_inner .project{
+   width: 600px;
+ }
+ .content2_inner a{
+    color: #299900;
+    font-weight: bold;
+    transition: all 0.5s cubic-bezier(0.780, -0.565, 0.240, 1.650) 0s;
+ }
+ .content2_inner a:hover{
+    background: #000;
+ }
+ h3{
+   font-size: 17px;
+   font-weight: 500;
+   margin-bottom: 15px;
+ }
+ h3:first-of-type{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+ p{
+   color: #666;
+ }
+ 
+ .content2_inner .project_skills{
+   display: flex;
+ }
+ .content2_inner .project_skills ul{
+   margin-left: 120px;
+ }
+ .content2_inner .project_skills ul dt{
+   font-size: 17px;
+   font-weight: 500;
+   margin-bottom: 20px;
+ }
+ .content2_inner .project_skills ul dd{
+   color: #666;
+ }
+
+ /* content3 */
+ .content3{
+   margin-bottom: 100px;
+ }
+
+ .tab-wrapper {
+  margin: 60px auto;
+  max-width: 1200px;
+}
+
+.tab-menu li {
+  position:relative;
+  background-color: #222;
+  color:#bcbcbc;
+  display: inline-block;
+  padding: 15px 40px;
+  opacity: 0.8;
+  z-index:0;
+}
+
+.tab-menu li:hover {
+  color:#fff;
+}
+
+.tab-menu li.active {
+  color:#fff;
+  opacity: 1;
+}
+
+.tab-menu li.active:hover {
+  color:#fff;
+}
+
+.tab-content>div {
+  background-color: #222;
+  box-sizing:border-box;
+  width: 100%;
+  padding: 50px;   
+  min-height:200px;
+}
+
+.tab-content>div:nth-child(2) img{
+  width: 80%;
+}
+
+.tab-content>div:last-child img{
+  width: 50%;
+}
+
+.line {
+  position:absolute;
+  width: 0;
+  height: 7px;
+  background-color: #299900;
+  top: 0;
+  left: 0;
+}
+
+/* content4 */
+.content4{
+   margin-bottom: 100px;
+}
+.content4 h3{
+  margin-bottom: 60px;
+}
+.content4_inner{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* content5 */
+.content5{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.content5 .img_bg{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  background: url(../img/portfolio_bg1.jpg) no-repeat 75% 50%;
+  background-size: cover;
+}
+.content5 .color_bg{
+  position: absolute;
+  width: 60%;
+  height: 100vh;
+  background: #782CE5;
+}
+.content5 .content5_inner{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+}
+.content5 .content5_inner h2{
+  text-align: center;
+  font-size: 180px;
+  font-weight: 800;
+  color: #fff;
+}
+.content5 p a{
+  margin: 150px auto 0;
+  display: block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  transform: scale(1);
+  transition: all 0.5s cubic-bezier(0.780, -0.565, 0.240, 1.650) 0s;
+}
+.content5 p a:hover{
+  border: none;
+  background: #000;
+  transform: scale(1.07);
+  color: #fff;
+}
